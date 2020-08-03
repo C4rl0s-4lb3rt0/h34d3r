@@ -95,13 +95,15 @@ body{
           }
           .wrapper-cont{
                position: absolute;
-               top:calc(50%);
-               left:calc(50%);
-               transform:translate(-50%,-50%);
-               height: 400px;
+               top: calc(50%);
+               left: calc(50%);
+               transform: translate(-50%, -50%);
+               height: 480px;
                display: flex;
                flex-direction: column;
-               width: 550px;
+               width: 580px;
+               background: rgba(0,0,0, 0.5);
+               border-radius: 10px;
                .cont-text{
                     height: 300px;
                     width: 100%;
@@ -171,6 +173,8 @@ body{
                display: flex;
                flex-direction: column;
                width: 550px;
+               background: none;
+               border-radius: none;
                .cont-text{
                     height: 300px;
                     width: 100%;
@@ -241,6 +245,8 @@ body{
                display: flex;
                flex-direction: column;
                width: 550px;
+               background: none;
+               border-radius: none;
                .cont-text{
                     height: 300px;
                     width: 100%;
@@ -310,6 +316,8 @@ body{
                display: flex;
                flex-direction: column;
                width: 550px;
+               background: none;
+               border-radius: none;
                .cont-text{
                     height: 300px;
                     width: 100%;
