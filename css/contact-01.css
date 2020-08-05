@@ -9,18 +9,14 @@ body {
 
 @media (max-width: 767px) {
   .wrapper-contact-01 {
-    height: 100vh;
     position: relative;
     width: 100%;
-    height: 100vh;
-    max-height: 100vh;
     display: flex;
     flex-direction: column; }
     .wrapper-contact-01 * {
       font-family: 'Roboto', sans-serif; }
     .wrapper-contact-01 .wrapper-contact-left {
       flex-basis: 50%;
-      height: 100%;
       background: #262d2f;
       width: auto;
       position: static;

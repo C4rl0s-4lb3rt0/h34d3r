@@ -12,18 +12,14 @@ body{
 
 @media (max-width: 767px){
      .wrapper-contact-01{
-          height: 100vh;
           position: relative;
           width: 100%;
-          height: 100vh;
-          max-height: 100vh;
           display: flex;
           flex-direction: column;
           
           *{font-family: 'Roboto', sans-serif;}
           .wrapper-contact-left{
                flex-basis:50%;
-               height: 100%;
                
                background:rgb(38, 45, 47);
                width: auto;
